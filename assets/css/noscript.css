@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+  background: #000;
+  overflow: hidden;
+}
+
+body:after {
+  content: '죄송합니다. 귀하의 브라우저는 Javascript를 지원하지 않습니다. 브라우저 설정에서 활성화해 보십시오.';
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2000;
+  pointer-events: none;
+}
+/*# sourceMappingURL=noscript.css.map */
